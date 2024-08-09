@@ -1,0 +1,3 @@
+
+qualities:
+generous,kind, helpfull

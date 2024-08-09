@@ -1,0 +1,48 @@
+.hi{
+    padding: 100px;
+    height: 150px;
+    width: 250px;
+}
+body{
+      
+animation: multicolor 20s infinite;
+
+}
+@keyframes multicolor {
+0%{
+    background-color:aqua ;
+}
+20%{
+    background-color:blueviolet;
+}
+40%{
+    background-color: rgb(0, 255, 162);
+}
+60%{
+    background-color:lightcoral;
+}
+80%{
+    background-color: rgb(255, 225, 75);
+}
+100%{
+    background-color: rgb(255, 161, 67);
+}
+}
+.hi:hover{
+    height: 200px;
+    width: 300px;
+    transition: 0.5s;
+}
+form{
+    padding: 15px;
+    margin: 10px;
+    border-spacing: 10px;
+    
+}
+#login:hover{
+ width: 100%;
+ height: 60px;
+ background-color: blueviolet;
+ transition: 0.5s
+
+}
